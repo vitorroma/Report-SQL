@@ -5,7 +5,7 @@
 
   * [1 Descrição](10:3)
   * [2 Script](14:3)
-  * [3 Informações complementares](71:3)
+  * [3 Informações complementares](https://github.com/vitorroma/Report-SQL/blob/main/README.md#3-informa%C3%A7%C3%B5es-complementares)
   
 ## 1  Descrição:
 
