@@ -4,17 +4,17 @@
 **Conteúdo:**
 
   * [1 Descrição](https://github.com/vitorroma/Report-SQL/blob/main/README.md#1--descri%C3%A7%C3%A3o)
-  * [2 Sistema] (https://github.com/vitorroma/Report-SQL/blob/main/README.md#2-sistema)
+  * [2 Sistema](https://github.com/vitorroma/Report-SQL/blob/main/README.md#2-sistema) 
   * [3 Script](https://github.com/vitorroma/Report-SQL/blob/main/README.md#3-script)
   * [4 Informações complementares](https://github.com/vitorroma/Report-SQL/blob/main/README.md#4-informa%C3%A7%C3%B5es-complementares)
   
 ## 1  Descrição:
 
-Consulta utilizada para trazer os funcionários que foram admitidos no período  selecionado.
+Consulta utilizada para trazer os funcionários que foram admitidos no período selecionado.
 
 ## 2 Sistema:
 
-Corpore RM
+Corpore RM.
 
 ## 3 Script
 
