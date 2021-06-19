@@ -4,14 +4,19 @@
 **Conteúdo:**
 
   * [1 Descrição](https://github.com/vitorroma/Report-SQL/blob/main/README.md#1--descri%C3%A7%C3%A3o)
-  * [2 Script](https://github.com/vitorroma/Report-SQL/blob/main/README.md#2-script)
-  * [3 Informações complementares](https://github.com/vitorroma/Report-SQL/blob/main/README.md#3-informa%C3%A7%C3%B5es-complementares)
+  * [2 Sistema] (https://github.com/vitorroma/Report-SQL/blob/main/README.md#2-sistema)
+  * [3 Script](https://github.com/vitorroma/Report-SQL/blob/main/README.md#3-script)
+  * [4 Informações complementares](https://github.com/vitorroma/Report-SQL/blob/main/README.md#4-informa%C3%A7%C3%B5es-complementares)
   
 ## 1  Descrição:
 
 Consulta utilizada para trazer os funcionários que foram admitidos no período  selecionado.
 
-## 2 Script
+## 2 Sistema:
+
+Corpore RM
+
+## 3 Script
 
        SELECT pfun.CHAPA,
        pfun.codfuncao       AS CBO,
@@ -80,6 +85,6 @@ WHERE  pfun.CODSITUACAO = 'A'
        AND ppes.funcionario = '1'
        AND dataadmissao >= TO_DATE(:dataadmissao, 'dd-mm-yy') 
 
-## 3 Informações complementares
+## 4 Informações complementares
 
 No banco utilizado para criar a consulta acima, existem cadastros de funcionários com duas (2) mães no registro de depentende. Por está razão, a subconsulta foi desativada e passamos a utilizaro JOIN para trazer as informações das colunas NOME_MÃE e NOME_PAI. Este foi o metodo adotado para resolver esta situação, no entanto, pode ser usado o MAX na subconsulta para selecionar o dado. 
