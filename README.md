@@ -14,7 +14,7 @@ Consulta utilizada para trazer os funcionários que foram admitidos no período 
 
 ## 2 Sistema:
 
-Corpore RM.
+Corpore RM
 
 ## 3 Script
 
